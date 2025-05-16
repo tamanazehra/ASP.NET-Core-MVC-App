@@ -1,0 +1,29 @@
+﻿
+@model List<BookStoreMVC.Models.Book>
+
+<a href="/Books/Create" class="btn btn-success">+ Add New Book</a>
+
+    <h2>Books List</h2>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price (₹)</th>
+        </tr>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Id</td>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.Price</td>
+                <td>
+                    <a href="/Books/Edit/@book.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="/Books/Delete/@book.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+
