@@ -1,8 +1,8 @@
 using System.Diagnostics;
-using Habit_Tracker.Models;
+using HabitTracker.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Habit_Tracker.Controllers
+namespace HabitTracker.Controllers
 {
     public class HomeController : Controller
     {

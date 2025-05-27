@@ -11,6 +11,7 @@ namespace HabitTracker.Models
 
         public DbSet<Habit> Habits { get; set; }
         public DbSet<HabitLog> HabitLogs { get; set; }
+
     }
 }
 

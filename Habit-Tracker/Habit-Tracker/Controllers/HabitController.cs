@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HabitTracker.Models;
 
-namespace Habit_Tracker.Controllers
+namespace HabitTracker.Controllers
 {
     public class HabitController : Controller
     {
