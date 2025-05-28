@@ -1,8 +1,16 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5 text-center">
+    <div class="jumbotron bg-light p-5 rounded shadow-sm">
+        <h1 class="display-4 text-primary">💸 Welcome to FinanceApp!</h1>
+        <p class="lead mt-3">Track your expenses smartly and manage your finances with ease.</p>
+        <hr class="my-4" />
+        <p>Click below to get started:</p>
+        <div class="d-flex justify-content-center gap-3 mt-3">
+            <a class="btn btn-success btn-lg" href="/Expenses/Create">➕ Add Expense</a>
+            <a class="btn btn-outline-primary btn-lg" href="/Expenses">📊 View Expenses</a>
+        </div>
+    </div>
 </div>

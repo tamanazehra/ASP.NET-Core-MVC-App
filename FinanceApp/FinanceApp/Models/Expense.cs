@@ -4,7 +4,7 @@ namespace FinanceApp.Models
 {
     public class Expense
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         [Required]
         public string Description { get; set; } = null!;
         [Required]
@@ -13,9 +13,5 @@ namespace FinanceApp.Models
         [Required]
         public string Category { get; set; } = null!;
         public DateTime Date { get; set; } = DateTime.Now;
-
-        
-
-
     }
 }
